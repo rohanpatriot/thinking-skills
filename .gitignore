@@ -37,3 +37,6 @@ logs/
 dist/
 build/
 *.egg-info/
+
+# User-specific
+CLAUDE.md
