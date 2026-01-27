@@ -4,6 +4,20 @@ Claude Code skills for better judgment and decision-making.
 
 ## Skills
 
+### book-to-skill
+
+Convert .txt book files into leverageable Claude Code skills.
+
+**Use when:**
+- Transforming books, articles, or written expertise into structured skills
+- Extracting frameworks, principles, and techniques from written material
+- Creating reusable skills with workflows and reference material
+
+**Workflows:**
+- **Convert Book** - Full conversion from .txt to complete skill
+- **Analyze Book** - Extract frameworks without generating skill files
+- **Generate Skill** - Create skill from prior analysis
+
 ### decision-auditor
 
 Audits decisions for cognitive biases, runs premortems on plans, and reframes choices to reveal hidden assumptions.
