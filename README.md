@@ -23,13 +23,13 @@ Audits decisions for cognitive biases, runs premortems on plans, and reframes ch
 ## Installation
 
 ```bash
-npx skills.sh install rohanpatriot/thinking-skills
+npx skills add rohanpatriot/thinking-skills
 ```
 
 ## Testing Locally
 
 ```bash
-claude --plugin-dir /path/to/thinking-skills
+npx skills add ./path/to/thinking-skills
 ```
 
 ## License
