@@ -17,6 +17,7 @@ Convert .txt book files into leverageable Claude Code skills.
 - **Convert Book** - Full conversion from .txt to complete skill
 - **Analyze Book** - Extract frameworks without generating skill files
 - **Generate Skill** - Create skill from prior analysis
+- **Convert Formats** - Convert epub, pdf, mobi, docx to .txt (requires Calibre/Poppler)
 
 ### decision-auditor
 
