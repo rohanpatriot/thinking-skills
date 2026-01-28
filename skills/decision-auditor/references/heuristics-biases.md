@@ -2,6 +2,20 @@
 
 Quick reference for detecting and correcting common mental shortcuts that lead to systematic errors.
 
+## Table of Contents
+
+- [Availability Bias](#availability-bias)
+- [Representativeness Bias](#representativeness-bias)
+- [Anchoring](#anchoring)
+- [Affect Heuristic](#affect-heuristic)
+- [Substitution](#substitution)
+- [WYSIATI (What You See Is All There Is)](#wysiati-what-you-see-is-all-there-is)
+- [Overconfidence](#overconfidence)
+- [Planning Fallacy](#planning-fallacy)
+- [Hindsight Bias](#hindsight-bias)
+- [Halo Effect](#halo-effect)
+- [Summary Table](#summary-table)
+
 ## Availability Bias
 
 **Signs you're affected:**

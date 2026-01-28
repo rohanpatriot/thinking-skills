@@ -2,6 +2,14 @@
 
 Structured review for the last Friday of each month.
 
+## Contents
+
+- [Purpose](#purpose)
+- [Instructions for Claude](#instructions-for-claude)
+- [Check-in Template](#check-in-template)
+- [Monthly Check-in Schedule](#monthly-check-in-schedule)
+- [Reminders](#reminders)
+
 ---
 
 ## Purpose
@@ -19,7 +27,7 @@ Applied to annual planning:
 
 ## Instructions for Claude
 
-When a user requests a monthly check-in, guide them through the three core questions using the `AskUserQuestion` tool.
+When you receive a monthly check-in request, guide the user through the three core questions using the `AskUserQuestion` tool.
 
 ### Session Flow
 
@@ -29,32 +37,45 @@ When a user requests a monthly check-in, guide them through the three core quest
 
 #### Question 1: Big Goal Alignment
 
-**Ask:** "Looking at your life right now, what really matters most to you?"
+**Ask (via AskUserQuestion tool):**
+- Question: "Looking at your life right now, what really matters most to you?"
+- Options: Let me reflect on this | Same as when I set my goals | Things have shifted | Help me think through this
 
-**Follow-up:** "Are your Big Goals still aligned with what matters most, or has something shifted?"
+**Follow-up (via AskUserQuestion tool):**
+- Question: "Are your Big Goals still aligned with what matters most, or has something shifted?"
+- Options: Still aligned | Need minor adjustments | Major reassessment needed | Not sure
 
-- Options: Still aligned | Need minor adjustments | Major reassessment needed
-
-**If adjustments needed:** "What specifically needs to change?"
+**If adjustments needed (via AskUserQuestion tool):**
+- Question: "What specifically needs to change?"
+- Options: Adjust a Big Goal | Add a new goal | Remove a goal | Change priority order
 
 #### Question 2: Daily Systems Assessment
 
-**Ask:** "Think about your Daily Systems over the past month. Are they creating the momentum you need toward your Big Goals?"
-
+**Ask (via AskUserQuestion tool):**
+- Question: "Think about your Daily Systems over the past month. Are they creating the momentum you need toward your Big Goals?"
 - Options: Yes, strong momentum | Somewhat, but could be better | No, not working | Haven't been consistent
 
-**Follow-up based on response:**
-- If inconsistent: "What got in the way? What would help you be more consistent next month?"
-- If not working: "Do the systems need to change, or is it an execution problem?"
-- If working well: "Any refinements that would make them even more effective?"
+**Follow-up if inconsistent (via AskUserQuestion tool):**
+- Question: "What got in the way? What would help you be more consistent next month?"
+- Options: Time constraints | Energy/motivation | Systems too ambitious | Life circumstances | Need accountability
+
+**Follow-up if not working (via AskUserQuestion tool):**
+- Question: "Do the systems need to change, or is it an execution problem?"
+- Options: Change the systems | Fix execution | Both | Not sure, help me diagnose
+
+**Follow-up if working well (via AskUserQuestion tool):**
+- Question: "Any refinements that would make them even more effective?"
+- Options: Increase intensity (more A days) | Add a new system | Keep as is | Simplify further
 
 #### Question 3: Anti-Goal Check
 
-**Ask:** "Look at your Anti-Goals—the things you refuse to sacrifice. Are you in danger of violating any of them?"
-
+**Ask (via AskUserQuestion tool):**
+- Question: "Look at your Anti-Goals—the things you refuse to sacrifice. Are you in danger of violating any of them?"
 - Options: All good, staying within guardrails | Yellow flag, need to watch this | Red flag, already violating | Not sure, need to reflect
 
-**Follow-up if issues:** "What specific Anti-Goal is at risk? What would course correction look like?"
+**Follow-up if issues (via AskUserQuestion tool):**
+- Question: "What specific Anti-Goal is at risk? What would course correction look like?"
+- Options: Health at risk | Relationships at risk | Values compromised | Time/energy depleted | Other
 
 #### Closing
 

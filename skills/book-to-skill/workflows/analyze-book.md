@@ -174,17 +174,9 @@ Track source locations (chapter/section) for each item.
 
 ### Step 5: Offer Next Steps
 
-```
-Analysis complete. You can:
-
-1. **Generate skill now:** Say "generate skill" and I'll create files from this analysis
-2. **Adjust scope:** Tell me which frameworks/principles to include or exclude
-3. **Re-analyze sections:** Specify chapters to look at more closely
-4. **Save analysis:** I can write this report to a file for later reference
-5. **Manual curation:** Use this analysis to build your own skill structure
-
-What would you like to do?
-```
+**Ask user (via AskUserQuestion tool):**
+- Question: "Analysis complete. What would you like to do next?"
+- Options: Generate skill now | Adjust scope (include/exclude items) | Re-analyze specific sections | Save analysis to file
 
 ---
 

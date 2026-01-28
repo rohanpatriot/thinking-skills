@@ -17,49 +17,31 @@ Workflow for creating skill files from prior analysis or user-provided extractio
 
 ### Step 1: Gather Analysis Input
 
-**If coming from prior analysis:**
-```
-"I have the analysis from {Book Title}. Ready to generate the skill.
-
-Quick confirmation - include all extracted content or specific items?"
-```
+**If coming from prior analysis, ask user (via AskUserQuestion tool):**
+- Question: "I have the analysis from {Book Title}. What should I include?"
+- Options: All extracted content | Specific frameworks only | Let me specify what to include
 
 **If user providing analysis:**
-```
-"Please share your analysis notes. I need:
-
+Request they share analysis notes covering:
 1. **Frameworks** - Named mental models with their components
 2. **Principles** - Core rules or guidelines
 3. **Techniques** - Step-by-step methods (optional)
 4. **Anti-patterns** - What to avoid (optional)
 5. **Voice notes** - How the author writes (optional)
 
-You can paste structured notes or describe what you've identified."
-```
-
 ---
 
 ### Step 2: Confirm Skill Parameters
 
-**Ask/confirm:**
+Present proposed parameters, then **ask user (via AskUserQuestion tool):**
 
-```
-Skill generation parameters:
+- Question: "I propose skill name `{proposed-name}` with {Simple/Router} structure. Proceed with these parameters?"
+- Options: Yes, proceed | Change the name | Change structure type | Change reference depth
 
-**Name:** `{proposed-name}`
-(Format: author-concept, e.g., cialdini-influence)
-
-**Description:** {Proposed one-liner}
-
-**Structure:** {Simple/Router}
-
-**Reference depth:**
+**Reference depth options** (if user wants to change):
 - Essential (key frameworks only)
 - Comprehensive (all frameworks + principles)
 - Exhaustive (everything extracted)
-
-Confirm or adjust?
-```
 
 ---
 

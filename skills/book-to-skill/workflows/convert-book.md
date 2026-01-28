@@ -22,16 +22,9 @@ Main workflow for end-to-end book conversion.
    - Index/bibliography
 4. Estimate total size and chapter count
 
-**Ask user:**
-```
-"What should this skill help you accomplish?"
-Options:
-- Write like the author
-- Apply their frameworks to problems
-- Think with their mental models
-- Build using their approach
-- All of the above
-```
+**Ask user (via AskUserQuestion tool):**
+- Question: "What should this skill help you accomplish?"
+- Options: Write like the author | Apply their frameworks to problems | Think with their mental models | Build using their approach | All of the above
 
 **Output:** Book metadata, user's intent
 
@@ -127,14 +120,9 @@ Options:
 {Simple/Router} because {rationale}
 ```
 
-**Ask user:**
-```
-"Does this extraction look accurate? Should I:
-1. Proceed with all extracted content
-2. Focus on specific frameworks (specify which)
-3. Re-analyze certain chapters
-4. Add emphasis on something I missed"
-```
+**Ask user (via AskUserQuestion tool):**
+- Question: "Does this extraction look accurate? What should I do next?"
+- Options: Proceed with all extracted content | Focus on specific frameworks | Re-analyze certain chapters | Add emphasis on something I missed
 
 **Output:** User-approved extraction scope
 
@@ -176,10 +164,9 @@ Options:
     └── {any specific workflows}
 ```
 
-**Ask user:**
-```
-"Does this skill structure work? Anything to adjust before I generate the files?"
-```
+**Ask user (via AskUserQuestion tool):**
+- Question: "Does this skill structure work?"
+- Options: Yes, generate the files | Adjust the structure first | Change the skill name | Change reference depth
 
 **Output:** Approved skill structure
 

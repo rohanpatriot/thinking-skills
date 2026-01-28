@@ -2,12 +2,41 @@
 
 Change how a decision is framed to reveal hidden assumptions and potential biases.
 
+## Table of Contents
+
+- [When to Use](#when-to-use)
+- [Getting Started](#getting-started)
+- [The Core Insight](#the-core-insight)
+- [The Process](#the-process)
+  - [Step 1: Document the Current Frame](#step-1-document-the-current-frame)
+  - [Step 2: Identify the Reference Point](#step-2-identify-the-reference-point)
+  - [Step 3: Flip Gains and Losses](#step-3-flip-gains-and-losses)
+  - [Step 4: Change the Reference Point](#step-4-change-the-reference-point)
+  - [Step 5: Broaden the Frame](#step-5-broaden-the-frame)
+  - [Step 6: Disaggregate vs. Aggregate](#step-6-disaggregate-vs-aggregate)
+  - [Step 7: Restate as Pure Information](#step-7-restate-as-pure-information)
+  - [Step 8: Consider Joint vs. Separate Evaluation](#step-8-consider-joint-vs-separate-evaluation)
+  - [Step 9: Test Frame Independence](#step-9-test-frame-independence)
+- [Output Template](#output-template)
+- [Common Reframing Situations](#common-reframing-situations)
+
 ## When to Use
 
 - When a decision feels stuck in one framing
 - When there's disagreement that seems to be about facts but might be about framing
 - When you suspect loss aversion is driving a decision
 - When evaluating a decision someone else has framed
+
+## Getting Started
+
+Before reframing, use the `AskUserQuestion` tool to understand the decision context:
+
+1. **How is the decision currently presented?** Get the exact language being used.
+2. **Who framed it this way?** The source of framing affects how entrenched it may be.
+3. **What's the implicit reference point?** Often reveals whether gains or losses are being emphasized.
+4. **What options are on the table?** Understanding the choice set helps identify narrow framing.
+
+This information is essential—you can't reframe what you don't fully understand.
 
 ## The Core Insight
 

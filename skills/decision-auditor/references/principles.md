@@ -2,6 +2,22 @@
 
 Actionable rules for better judgment. Use these as checks during decision-making.
 
+## Table of Contents
+
+- [1. Check for Missing Information (WYSIATI)](#1-check-for-missing-information-wysiati)
+- [2. Take the Outside View](#2-take-the-outside-view)
+- [3. Expect Regression to the Mean](#3-expect-regression-to-the-mean)
+- [4. Separate Diagnosis from Decision](#4-separate-diagnosis-from-decision)
+- [5. Consider the Opposite](#5-consider-the-opposite)
+- [6. Use Simple Rules for Repeated Decisions](#6-use-simple-rules-for-repeated-decisions)
+- [7. Aggregate Independent Judgments](#7-aggregate-independent-judgments)
+- [8. Think Statistically](#8-think-statistically)
+- [9. Make Decisions from the Future](#9-make-decisions-from-the-future)
+- [10. Account for Loss Aversion](#10-account-for-loss-aversion)
+- [11. Broaden the Frame](#11-broaden-the-frame)
+- [12. Remember Peak-End Rule](#12-remember-peak-end-rule)
+- [Quick Reference](#quick-reference)
+
 ## 1. Check for Missing Information (WYSIATI)
 
 **When to apply:** Before any significant decision

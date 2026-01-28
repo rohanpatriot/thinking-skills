@@ -2,6 +2,16 @@
 
 Templates for each reference file type in generated skills.
 
+## Contents
+
+- [core-thesis.md](#core-thesismd)
+- [frameworks.md](#frameworksmd)
+- [principles.md](#principlesmd)
+- [techniques.md](#techniquesmd)
+- [anti-patterns.md](#anti-patternsmd)
+- [voice.md](#voicemd)
+- [workflows/{action}-{topic}.md](#workflowsaction-topicmd)
+
 ## core-thesis.md
 
 ```markdown

@@ -2,6 +2,17 @@
 
 Common mistakes to avoid when setting and pursuing annual goals.
 
+## Contents
+
+- [Thinking Too Small](#1-thinking-too-small)
+- [Skipping Two Days in a Row](#2-skipping-two-days-in-a-row)
+- [Winning the Battle, Losing the War](#3-winning-the-battle-losing-the-war)
+- [Set and Forget](#4-set-and-forget)
+- [All Goals, No Systems](#5-all-goals-no-systems)
+- [Too Many Goals](#6-too-many-goals)
+- [No Recovery Mechanism](#7-no-recovery-mechanism)
+- [Detection Checklist](#detection-checklist)
+
 ---
 
 ## 1. Thinking Too Small

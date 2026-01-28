@@ -1,6 +1,6 @@
 ---
 name: book-to-skill
-description: Convert .txt book files into leverageable Claude Code skills. Use when transforming books, articles, or written expertise into structured skills with frameworks, workflows, and reference material.
+description: Converts .txt book files into leverageable Claude Code skills. Use when transforming books, articles, or written expertise into structured skills with frameworks, workflows, and reference material.
 ---
 
 # Book to Skill Converter
@@ -9,20 +9,20 @@ Transform written knowledge into actionable Claude Code skills.
 
 ## Philosophy
 
-Books contain crystallized expertise—frameworks, principles, and techniques that took years to develop. This skill extracts that knowledge into a format Claude can leverage repeatedly.
+I transform books into actionable skills by extracting their crystallized expertise—frameworks, principles, and techniques—into a format I can leverage repeatedly.
 
-**Extract structure, not summaries.** A skill isn't a book report. It's a toolkit of:
+**I extract structure, not summaries.** A skill isn't a book report. It's a toolkit of:
 - Named frameworks (mental models with clear application)
 - Actionable principles (rules that guide decisions)
 - Techniques (step-by-step methods)
 - Anti-patterns (what to avoid and why)
 - Voice calibration (how the author thinks and communicates)
 
-**Preserve the author's precision.** Frameworks often have specific names and structures for reasons. "The 5 Whys" isn't interchangeable with "ask why multiple times." Capture the exact formulation.
+**I preserve the author's precision.** Frameworks often have specific names and structures for reasons. "The 5 Whys" isn't interchangeable with "ask why multiple times." I capture the exact formulation.
 
-**Optimize for invocation.** The generated skill should be immediately useful. When someone invokes `/author-method`, they should get actionable guidance, not philosophy.
+**I optimize for invocation.** The generated skill should be immediately useful. When someone invokes `/author-method`, they should get actionable guidance, not philosophy.
 
-**Layer depth appropriately.** Simple books → simple skills. Complex books with 10+ frameworks → router skills with reference files.
+**I layer depth appropriately.** Simple books → simple skills. Complex books with 10+ frameworks → router skills with reference files.
 
 ## Supported Formats
 
@@ -88,22 +88,22 @@ For output structure patterns, see [references/skill-patterns.md](references/ski
 
 ## Questions to Ask
 
+Use AskUserQuestion tool for each of these:
+
 1. **Purpose** (before analysis):
-   "What should this skill help you do?"
-   - Write like the author
-   - Apply their frameworks
-   - Think with their mental models
-   - Build using their approach
-   - All of the above
+   - Question: "What should this skill help you do?"
+   - Options: Write like the author | Apply their frameworks | Think with their mental models | Build using their approach | All of the above
 
 2. **Skill Name** (after analysis):
-   Propose: `{author-lastname}-{core-concept}`
-   Examples: `cialdini-influence`, `meadows-systems`, `kahneman-decisions`
+   - Question: "What should this skill be named?"
+   - Propose `{author-lastname}-{core-concept}` format
+   - Examples: `cialdini-influence`, `meadows-systems`, `kahneman-decisions`
 
 3. **Scope** (after extraction):
-   Present extracted elements, ask which to include
+   - Present extracted elements summary
+   - Question: "Which elements should I include in the skill?"
+   - Options: All extracted content | Specific frameworks only | Let me specify
 
 4. **Reference Depth**:
-   - Essential only (key frameworks, ~5 pages)
-   - Comprehensive (all frameworks + principles, ~15 pages)
-   - Exhaustive (everything extracted, ~30+ pages)
+   - Question: "How comprehensive should the reference material be?"
+   - Options: Essential only (key frameworks) | Comprehensive (all frameworks + principles) | Exhaustive (everything extracted)

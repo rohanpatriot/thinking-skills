@@ -9,6 +9,17 @@ Systematically check a decision, plan, or judgment for common cognitive biases.
 - When a judgment feels too confident
 - When something seems too good to be true
 
+## Getting Started
+
+Before running through the bias checklist, use the `AskUserQuestion` tool to gather essential context:
+
+1. **What decision or judgment needs checking?** Get a clear statement of what's being evaluated.
+2. **What's at stake?** Understand the significance to calibrate depth of analysis.
+3. **What information is available?** Identify what data, estimates, or reasoning they've already done.
+4. **Any known concerns?** The user may already suspect specific biases.
+
+This information shapes which checks to prioritize and how to interpret findings.
+
 ## The Process
 
 ### Step 1: State the Decision Clearly

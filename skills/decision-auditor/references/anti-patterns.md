@@ -2,6 +2,19 @@
 
 Common mistakes Kahneman identifies, why they happen, and how to avoid them.
 
+## Table of Contents
+
+- [1. Answering a Different Question](#1-answering-a-different-question)
+- [2. Ignoring Base Rates](#2-ignoring-base-rates)
+- [3. The Planning Fallacy](#3-the-planning-fallacy)
+- [4. Overconfidence in Judgment](#4-overconfidence-in-judgment)
+- [5. Theory-Induced Blindness](#5-theory-induced-blindness)
+- [6. Hindsight Bias](#6-hindsight-bias)
+- [7. Neglecting Regression to the Mean](#7-neglecting-regression-to-the-mean)
+- [8. Narrow Framing](#8-narrow-framing)
+- [9. Duration Neglect in Evaluation](#9-duration-neglect-in-evaluation)
+- [10. Focusing Illusion](#10-focusing-illusion)
+
 ## 1. Answering a Different Question
 
 **The pattern:** When faced with a hard question, System 1 substitutes an easier one and answers that instead.

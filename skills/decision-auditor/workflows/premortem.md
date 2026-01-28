@@ -9,6 +9,17 @@ Gary Klein's technique for reducing overconfidence and identifying threats befor
 - After achieving consensus too easily
 - When stakes are high
 
+## Getting Started
+
+Before running the premortem, use the `AskUserQuestion` tool to gather essential context:
+
+1. **What's the plan?** Get specifics: commitments, milestones, resources, responsibilities.
+2. **What's the timeframe?** Needed to set the "one year from now" scenario appropriately.
+3. **Who are the stakeholders?** Understanding perspectives helps generate diverse failure modes.
+4. **What does success look like?** Defines the contrast for "disaster" scenarios.
+
+This information is necessary to generate realistic and useful failure scenarios.
+
 ## The Setup
 
 **Premise:** It is one year from now. We implemented the plan exactly as proposed. The outcome was a disaster.

@@ -1,6 +1,6 @@
 ---
 name: habits-and-goals
-description: Systematic framework for annual goal-setting and execution. Use when planning your year, breaking down ambitious goals into daily systems, running monthly check-ins, or applying the ABC System for consistent habit execution.
+description: Guides annual goal-setting and execution with a systematic framework. Applies when planning the year, breaking down ambitious goals into daily systems, running monthly check-ins, or using the ABC System for consistent habit execution.
 ---
 
 # Habits and Goals
