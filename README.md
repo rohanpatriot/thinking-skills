@@ -1,6 +1,6 @@
 # Thinking Skills
 
-Claude Code skills for better judgment and decision-making.
+Agent skills for better judgment and decision-making.
 
 Turn books into reusable skills. Audit decisions for cognitive biases. Plan your year with proven goal-setting frameworks. These skills bring structured thinking workflows directly into your coding agent.
 
@@ -28,7 +28,7 @@ npx skills add ./path/to/thinking-skills
 
 | Skill | Description |
 |-------|-------------|
-| [book-to-skill](#book-to-skill) | Convert books and articles into Claude Code skills |
+| [book-to-skill](#book-to-skill) | Convert books and articles into agent skills |
 | [decision-auditor](#decision-auditor) | Audit decisions for cognitive biases and run premortems |
 | [habits-and-goals](#habits-and-goals) | Annual goal-setting and daily habit systems |
 
@@ -36,7 +36,7 @@ npx skills add ./path/to/thinking-skills
 
 ## book-to-skill
 
-Convert .txt book files into leverageable Claude Code skills.
+Convert .txt book files into leverageable agent skills.
 
 ```bash
 npx skills add rohanpatriot/thinking-skills --skill book-to-skill
