@@ -2,6 +2,8 @@
 
 Claude Code skills for better judgment and decision-making.
 
+Turn books into reusable skills. Audit decisions for cognitive biases. Plan your year with proven goal-setting frameworks. These skills bring structured thinking workflows directly into your coding agent.
+
 ## Installation
 
 Install all skills:
