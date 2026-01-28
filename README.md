@@ -10,6 +10,12 @@ Install all skills:
 npx skills add rohanpatriot/thinking-skills
 ```
 
+Install specific skills:
+
+```bash
+npx skills add rohanpatriot/thinking-skills --skill book-to-skill decision-auditor habits-and-goals
+```
+
 Test locally:
 
 ```bash
@@ -31,7 +37,7 @@ npx skills add ./path/to/thinking-skills
 Convert .txt book files into leverageable Claude Code skills.
 
 ```bash
-npx skills add rohanpatriot/thinking-skills/skills/book-to-skill
+npx skills add rohanpatriot/thinking-skills --skill book-to-skill
 ```
 
 **Use when:**
@@ -52,7 +58,7 @@ npx skills add rohanpatriot/thinking-skills/skills/book-to-skill
 Audits decisions for cognitive biases, runs premortems on plans, and reframes choices to reveal hidden assumptions.
 
 ```bash
-npx skills add rohanpatriot/thinking-skills/skills/decision-auditor
+npx skills add rohanpatriot/thinking-skills --skill decision-auditor
 ```
 
 **Use when:**
@@ -74,7 +80,7 @@ npx skills add rohanpatriot/thinking-skills/skills/decision-auditor
 Systematic framework for annual goal-setting and execution based on Sahil Bloom's Annual Planning Guide.
 
 ```bash
-npx skills add rohanpatriot/thinking-skills/skills/habits-and-goals
+npx skills add rohanpatriot/thinking-skills --skill habits-and-goals
 ```
 
 **Use when:**
