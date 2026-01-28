@@ -47,6 +47,21 @@ Audits decisions for cognitive biases, runs premortems on plans, and reframes ch
 - **Premortem** - Imagine failure to identify threats before they materialize
 - **Reframe** - Change how a decision is framed to reveal hidden assumptions
 
+### habits-and-goals
+
+Systematic framework for annual goal-setting and execution based on Sahil Bloom's Annual Planning Guide.
+
+**Use when:**
+- Planning your year (Professional and Personal goals)
+- Breaking down ambitious goals into daily systems
+- Running monthly check-ins to course-correct
+- Building sustainable habits with ABC levels
+
+**Workflows:**
+- **Annual Planning** - Full year planning session with Big Goals, Checkpoints, Daily Systems, Anti-Goals
+- **Goal Decomposition** - Break down a single Big Goal into actionable components
+- **Monthly Check-in** - Three-question review to catch drift early
+
 ## License
 
 MIT License - See [LICENSE](LICENSE) for details.
