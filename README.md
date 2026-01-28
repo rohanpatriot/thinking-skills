@@ -57,7 +57,7 @@ npx skills add rohanpatriot/thinking-skills --skill book-to-skill
 
 ## decision-auditor
 
-Audits decisions for cognitive biases, runs premortems on plans, and reframes choices to reveal hidden assumptions.
+Audits decisions for cognitive biases, runs premortems on plans, and reframes choices to reveal hidden assumptions. Based on *Thinking, Fast and Slow* by Daniel Kahneman.
 
 ```bash
 npx skills add rohanpatriot/thinking-skills --skill decision-auditor

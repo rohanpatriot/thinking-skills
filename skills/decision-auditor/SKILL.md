@@ -5,6 +5,8 @@ description: Audits decisions for cognitive biases, runs premortems on plans, an
 
 # Decision Auditor
 
+Based on *Thinking, Fast and Slow* by Daniel Kahneman.
+
 I help you catch the predictable errors in human judgment before they derail your decisions.
 
 ## What I Do
